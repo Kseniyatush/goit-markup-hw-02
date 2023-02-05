@@ -1,0 +1,187 @@
+:root {
+--accent-color:#4D5AE5;
+--primary-color:#434455;
+--main-color:#FFFFFF;
+--main-bg-color: #FFFFFF;
+--main-font: 'Raleway' ,sans-serif;
+}
+body{
+
+font-family: 'Roboto', sans-serif;
+font-size : 16 px;
+background-color: var(--main-bg-color);
+}
+ul {
+    list-style: none;
+}
+.page-header {
+display:flex;
+padding:10px;
+width: 1440px;
+height: 72px;
+}
+.page-adress .link {
+color: var(--accent-color);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+.logo-first {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+.logo-second {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+color: #2E2F42;
+}
+.site-nav .link {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+flex: none;
+}
+.hero {
+
+     background: #2E2F42;
+}
+.hero-title{
+    background: #2E2F42;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1,07x;
+        text-align: center;
+        letter-spacing: 0.02em;    
+        color: #FFFFFF;
+        width: 494px;
+        }
+.hero-button {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5;
+        background: #4D5AE5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;    
+        color: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer;
+       } 
+        .hero-button:hover {
+       } 
+        .hero-button:focus {
+       }
+       
+.description-subtitle {
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1,2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+       }
+    
+        .description-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;                 
+        letter-spacing: 0.02em;               
+        color: #434455;
+       }
+     .job-tittle {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,11x;                                 
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;                                                 
+        color: #2E2F42;
+    
+       }
+      .about-tittle {
+       font-style: normal;
+       font-weight: 700;
+       font-size: 36px;
+       line-height: 1,25;
+       text-align: center;
+       letter-spacing: 0.02em;
+       text-transform: capitalize;
+       color: #2E2F42;
+       } 
+         .about-subtitle {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1,2;                               
+            text-align: center;
+            letter-spacing: 0.02em;                                                 
+            color: #2E2F42;
+       }
+
+         .about-text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1,5;                                         
+            text-align: center;
+            letter-spacing: 0.02em;                                                          
+            color: #434455;
+       }
+           .footer-section {
+            background: #2E2F42;
+        }
+           .description-footer{
+             font-weight: 400;
+             font-size: 16px;
+             line-height:1,5;                                                         
+             letter-spacing: 0.02em;                
+            color: #E7E9FC;
+            
+       }
+           
+        
+    
+        .footer-logo {
+         color: #E7E9FC;
+    
+        }
+          
+ .button{
+  background-color: var(--main-bg-color);
+
+ }
+ .button-item {
+  
+    background: #404BBF;
+    font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+    cursor: pointer;
+            color: #FFFFFF;
+ }
+ .button-item:hover {
+
+ }
+
+ .button-item:focus {
+
+ }
