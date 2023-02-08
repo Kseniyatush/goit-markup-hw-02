@@ -109,18 +109,11 @@ text-decoration: none;
         letter-spacing: 0.02em;               
         color:var(--primary-color);
        }
-     .job-tittle {
-        font-size: 36px;
-        line-height: 1.11;                                 
-        letter-spacing: 0.02em;
-        text-transform: capitalize;                                                 
-        color: var(--grey-color);
-        }
+     
       
-      .about-tittle {
+      .tittle {
        font-size: 36px;
-       line-height: 1.11;
-       text-align: center;
+       line-height: 1.11;       
        letter-spacing: 0.02em;
        text-transform: capitalize;
        color: var(--grey-color);
@@ -164,17 +157,19 @@ text-decoration: none;
         text-decoration: none;
 }
 
-.logo-secfooter{
+.logo-secfooter { 
 
-  color: #F4F4FD;
+  color:#F4F4FD;
 
 }
     
        
           
+ ul {
+   list-style: none;
+ }
  
- 
- .button-item {  
+ .button-portfolio {  
     font-weight: 500;
     font-family: 'Roboto',sans-serif;
     letter-spacing: 0.04em;
@@ -187,8 +182,15 @@ text-decoration: none;
 
   
 }
- .button-item:hover,
- .button-item:focus {background-color:#404BBF;
+ .button-portfolio:hover,
+ .button-portfolio:focus {background-color:#404BBF;
   color: var(--main-color);
       
 }
+.about-portfolio {
+  font-size: 36px;
+    line-height: 1.11;   
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--grey-color);
+  }
